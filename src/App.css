@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.wrapper{
+    width: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+
+
+}
+.wrapper h1{
+    background-color: #ff9668;
+    width: 50%;
+    padding: 20px 0px;
+    text-align: center;
+    
+}
+/*use on allquestion.css and score.css  */
+.mainBox{
+    width: 50%;
+    height: 400px;
+    border: 2px solid #ff9668;
+    padding: 30px 40px;
+}
+@media screen and (max-width:990px){
+    .wrapper{
+    top: 30%;
+    } 
+    .mainBox{
+        width: 70%;
+    } 
+    .wrapper h1{
+        width: 70%;
+    }
+}
+
+@media screen and (max-width:600px){
+    
+    .mainBox{
+        width: 90%;
+    } 
+    .wrapper h1{
+        width: 90%;
+    }
+} 
+
+
+
